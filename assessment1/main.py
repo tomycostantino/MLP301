@@ -33,9 +33,10 @@ def get_candlesticks(client: Client, asset: str, interval: str):
 
 
 if __name__ == '__main__':
-
-    api_key = '5CWQHvHfhyU9WWWWiRUaY0xbq6wmQkgO4512GKupzTkrwwdiTphQQxsZQCcB48rM'
-    api_secret = 'ULgitDDFVLA9RELEXA8nisOUZLi9JVWUZPsKs3ctjMj2iszmMDdx5Kmeg8sz5xik'
+	
+    # I don't leave my API keys for security issues
+    api_key = ''
+    api_secret = ''
 
     client = Client(api_key, api_secret)
 
